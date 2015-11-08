@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/New"
+        android:title="новая игра">
+    </item>
+    <item
+        android:id="@+id/Download"
+        android:title="загрузить игру">
+    </item>
+    <item
+        android:id="@+id/Save"
+        android:title="сохранить игру">
+    </item>
+     <item
+        android:id="@+id/Exit"
+        android:title="выход">
+    </item>
+
+</menu>

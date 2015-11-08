@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_gamer">Изменить профиль игрока</string>
+    <string name="change_gamer">Сменить игрока</string>
+    <string name="show_count">Показать счет</string>
+
+</resources>

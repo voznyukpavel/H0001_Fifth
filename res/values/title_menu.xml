@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <string name="new_game">Новая игра</string>
+       <string name="new_gamer">Новый игрок</string>
+       <string name="download_game">Загрузить игру</string>
+       <string name="save_game">Сохранить игру</string>
+       <string name="exit">Выход</string>
+</resources>

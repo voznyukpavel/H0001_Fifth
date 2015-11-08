@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_new"
+        android:title="@string/new_game"/>
+    <item
+        android:id="@+id/action_new_gamer"
+        android:title="@string/new_gamer">
+    </item>
+    <item
+        android:id="@+id/action_download"
+        android:title="@string/download_game">
+    </item>
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/save_game">
+    </item>
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/exit">
+    </item>
+
+</menu>
