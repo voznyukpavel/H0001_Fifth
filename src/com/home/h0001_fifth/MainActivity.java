@@ -2,7 +2,7 @@ package com.home.h0001_fifth;
 
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
+import java.util.List;//
 import java.util.NavigableMap;
 import java.util.Set;
 import java.util.TreeMap;
@@ -105,7 +105,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 				b.setBackgroundResource(R.drawable.button_normal);
 			}
 		}
-		Toast.makeText(this, "собери", Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "Г±Г®ГЎГҐГ°ГЁ", Toast.LENGTH_LONG).show();
 	}
 	
 	private void buttonsPicture(Button b, int numb){
@@ -389,10 +389,10 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 				b.setText("");
 			}
 			buttons.get(15).setBackgroundResource(R.drawable.button_normal16);
-			text_winner.setText("Вы победили!!!");
-			Toast.makeText(this, "поздравляю", Toast.LENGTH_LONG).show();
+			text_winner.setText("Г‚Г» ГЇГ®ГЎГҐГ¤ГЁГ«ГЁ!!!");
+			Toast.makeText(this, "ГЇГ®Г§Г¤Г°Г ГўГ«ГїГѕ", Toast.LENGTH_LONG).show();
 
-			Toast.makeText(this, "готово!!!", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "ГЈГ®ГІГ®ГўГ®!!!", Toast.LENGTH_LONG).show();
 		}
 
 	}
@@ -436,11 +436,11 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 	public void onBackPressed() {
 		AlertDialog.Builder alertDialog = new AlertDialog.Builder(
 				MainActivity.this);
-		alertDialog.setTitle("Выход");
+		alertDialog.setTitle("Г‚Г»ГµГ®Г¤");
 
-		alertDialog.setMessage("Сохранить игру перед выходом?");
+		alertDialog.setMessage("Г‘Г®ГµГ°Г Г­ГЁГІГј ГЁГЈГ°Гі ГЇГҐГ°ГҐГ¤ ГўГ»ГµГ®Г¤Г®Г¬?");
 
-		alertDialog.setPositiveButton("Да",
+		alertDialog.setPositiveButton("Г„Г ",
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 						save();
@@ -451,7 +451,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 					}
 				});
 
-		alertDialog.setNeutralButton("Нет",
+		alertDialog.setNeutralButton("ГЌГҐГІ",
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 						Intent intent = new Intent(Intent.ACTION_MAIN);
@@ -460,7 +460,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 						startActivity(intent);
 					}
 				});
-		alertDialog.setNegativeButton("Отмена",
+		alertDialog.setNegativeButton("ГЋГІГ¬ГҐГ­Г ",
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 						dialog.cancel();
